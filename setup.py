@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='sample_package_abdullah',
-    version='0.1.5',
+    version= __import__('sample_package').__version__ ,
     author='Abdullah Al Baki',
     author_email='abdullahalbaki009@gmail.com',
     description='A sample Python package',
