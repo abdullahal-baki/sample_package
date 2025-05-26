@@ -22,3 +22,7 @@ setup(
 
 
 # pip install -e .                   # for current dir editable install
+
+
+# Distribution
+# python setup.py sdist bdist_wheel  # Create source and wheel distribution
