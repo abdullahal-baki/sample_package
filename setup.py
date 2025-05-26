@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='sample_package_abdullah',
-    version='0.1.3',
+    version='0.1.4',
     author='Abdullah Al Baki',
     author_email='abdullahalbaki009@gmail.com',
     description='A sample Python package',
@@ -15,6 +15,12 @@ setup(
     install_requires=[
         'requests>=2.25.1',
     ],
+    
+    project_urls={
+        "Source": "https://github.com/psf/requests"
+    },
+    
+    
 )
 
 # version >> (major, minor, patch)
