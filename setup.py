@@ -24,21 +24,3 @@ setup(
     },
 )
 
-
-# version >> (major, minor, patch)
-    # major: Incremented for big changes, like breaking changes or significant new features.
-    # minor: Incremented for smaller changes, like new features that are backward-compatible.
-    # patch: Incremented for bug fixes or minor changes that do not affect the program.
-
-
-# pip install -e .                   # for current dir editable install
-
-
-# Distribution
-# Create source and wheel distribution
-
-# python setup.py sdist bdist_wheel 
-
-# twine upload dist/*
-# 
-# twine upload -r testpypi dist/*

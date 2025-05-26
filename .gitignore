@@ -1,2 +1,3 @@
 dist/
-.pypirc
+note.txt
+*.pyc
